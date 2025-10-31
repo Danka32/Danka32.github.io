@@ -13,9 +13,8 @@ title                    : "Daniel | DevOps Engineer"
 title_separator          : "-"
 name                     : &name "Daniel"
 description              : &description "DevOps engineer focused on reliable, secure infrastructure."   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://danka32.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
-                                                           # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+url                      : https://devopsadm.in # Primary site URL (use HTTPS for assets)
+baseurl                  : "" # Leave blank when serving from domain root
 repository               : "Danka32/Danka32.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -318,6 +317,8 @@ whitelist:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-redirect-from
+
+enforce_ssl: devopsadm.in
   - jemoji
 
 
