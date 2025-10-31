@@ -1,3 +1,4 @@
+---
 permalink: /
 title: "DevOps Engineer"
 author_profile: true
@@ -6,29 +7,23 @@ redirect_from:
   - /about.html
 ---
 
-I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure reliable, secure, and efficient. I focus on continuous improvement, automation, and fostering calm, collaborative environments—photos might look formal, but I’m approachable and down-to-earth.
-
-## Contact
-
-- Telegram: [@DanOtan](https://t.me/DanOtan)
-- Email: [danilalovelinux@proton.me](mailto:danilalovelinux@proton.me)
-- GitHub: [Danka32](https://github.com/Danka32)
+I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure reliable, secure, and efficient. I focus on continuous improvement, automation, and fostering calm, collaborative environments.
 
 ## Experience
 
-### Knuddels GmbH — Junior DevOps Engineer / Linux Sysadmin
+### Inovex GmbH - DevOps Engineer
+
+- Built Azure infrastructure (AKS, Private Endpoints, and more) from scratch while following Azure and Terraform best practices.
+- Built and optimized complex GitLab pipelines to streamline delivery.
+- Built, refactored, and migrated sophisticated Helm/Kustomize combinations.
+
+### Knuddels GmbH — Linux Sysadmin
 
 - Optimized reliability of the infrastructure across every OSI layer.
 - Improved internal DevSecOps processes and overall cyber-security operations.
 - Handled all production-critical infrastructure actions single-handedly.
 - Advanced the development process with CI/CD pipelines.
 - Researched and introduced new tools and technologies under both zero and healthy budgets.
-
-### Inovex GmbH — Middle DevOps Engineer
-
-- Built Azure infrastructure (AKS, Private Endpoints, and more) from scratch while following Azure and Terraform best practices.
-- Built and optimized complex GitLab pipelines to streamline delivery.
-- Built, refactored, and migrated sophisticated Helm/Kustomize combinations.
 
 ## Certification
 
