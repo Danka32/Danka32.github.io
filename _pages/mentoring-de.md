@@ -13,7 +13,6 @@ author_profile: false
 - Zwei Freunde erfolgreich in DevOps begleitet und [einen Community-Engineer gementort](https://t.me/it_mentors/3279).
 - Zertifiziert als [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/1c615f76-070a-48f4-b8a4-2224bc3b1814/public_url).
 - Teile regelmäßig praktische Einblicke im Telegram-Kanal [DevOpsDir](https://t.me/devopsdir).
-
 **Kontakt:** [@DanOtan](https://t.me/DanOtan) · [danilalovelinux@proton.me](mailto:danilalovelinux@proton.me) · [github.com/Danka32](https://github.com/Danka32)
 
 ## Technologie-Stack
