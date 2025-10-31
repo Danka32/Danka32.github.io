@@ -11,11 +11,26 @@ author_profile: false
   <div class="mentoring-profile__info">
     <p class="mentoring-profile__name"><strong>Daniel</strong></p>
     <p class="mentoring-profile__role">DevOps Engineer · Mentor</p>
-    <p class="mentoring-profile__contacts">
-      <a href="https://t.me/DanOtan" target="_blank" rel="noopener noreferrer">Telegram</a>
-      · <a href="mailto:danilalovelinux@proton.me">E-Mail</a>
-      · <a href="https://github.com/Danka32" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </p>
+    <ul class="mentoring-profile__contacts">
+      <li>
+        <a href="https://t.me/DanOtan" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-fw fa-telegram-plane mentoring-profile__icon" aria-hidden="true"></i>
+          Telegram
+        </a>
+      </li>
+      <li>
+        <a href="mailto:danilalovelinux@proton.me">
+          <i class="fas fa-fw fa-envelope mentoring-profile__icon" aria-hidden="true"></i>
+          E-Mail
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Danka32" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-fw fa-github mentoring-profile__icon" aria-hidden="true"></i>
+          GitHub
+        </a>
+      </li>
+    </ul>
   </div>
 </div>
 
@@ -112,17 +127,35 @@ Wenn du einen konkreten Punkt klären möchtest, schreib mir einfach auf Telegra
 }
 
 .mentoring-profile__contacts {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
   margin: 0;
-  font-weight: 500;
+  padding: 0;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.mentoring-profile__contacts li {
+  display: flex;
+  align-items: center;
 }
 
 .mentoring-profile__contacts a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
   text-decoration: none;
+  font-weight: 600;
   color: color-mix(in srgb, var(--global-base-color) 85%, white);
 }
 
 .mentoring-profile__contacts a:hover {
   text-decoration: underline;
+}
+
+.mentoring-profile__icon {
+  font-size: 1rem;
 }
 
 @media (max-width: 600px) {
@@ -135,6 +168,11 @@ Wenn du einen konkreten Punkt klären möchtest, schreib mir einfach auf Telegra
   .mentoring-profile__photo {
     width: 110px;
     height: 110px;
+  }
+
+  .mentoring-profile__contacts {
+    justify-content: center;
+    gap: 0.9rem;
   }
 }
 </style>
