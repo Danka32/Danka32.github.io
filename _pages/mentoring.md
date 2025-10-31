@@ -6,6 +6,19 @@ author_profile: false
 
 **Язык:** Русский | [English]({{ '/en/mentoring/' | relative_url }}) | [Deutsch]({{ '/de/mentoring/' | relative_url }})
 
+<div class="mentoring-profile">
+  <img src="{{ '/images/profile.png' | relative_url }}" alt="Данил — DevOps ментор" class="mentoring-profile__photo" loading="lazy" width="160" height="160" />
+  <div class="mentoring-profile__info">
+    <p class="mentoring-profile__name"><strong>Данил / Daniel</strong></p>
+    <p class="mentoring-profile__role">DevOps Engineer · Mentor</p>
+    <p class="mentoring-profile__contacts">
+      <a href="https://t.me/DanOtan" target="_blank" rel="noopener noreferrer">Telegram</a>
+      · <a href="mailto:danilalovelinux@proton.me">Email</a>
+      · <a href="https://github.com/Danka32" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </div>
+</div>
+
 ## Меня зовут Данил
 
 - Год работы под началом CTO — [пост с историей](https://t.me/devopsdir/20)
@@ -13,11 +26,9 @@ author_profile: false
 - Успешно заменторил троих людей в DevOps
 - Есть сертификат [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/1c615f76-070a-48f4-b8a4-2224bc3b1814/public_url)
 - Регулярно делюсь практикой в [Телеграм-канале DevOpsDir](https://t.me/devopsdir)
-**Контакты:** [@DanOtan](https://t.me/DanOtan) · [danilalovelinux@proton.me](mailto:danilalovelinux@proton.me) · [github.com/Danka32](https://github.com/Danka32)
-
 ## Мой стек
 
-Kubernetes · git · ELK · TeamCity · GitLab · Helm · AWS · Ansible · Linux · Bash · Azure · nginx · Prometheus · Computer Networks · Apache · Cyber Security
+Kubernetes · Azure · AWS · Terraform · Terragrunt · Kapitan · GitLab CI/CD · TeamCity · Docker · Docker Compose · Docker Swarm · Teleport · Helm · Kustomize · ELK · Prometheus · Thanos · Grafana · Bash · Go · Python · nginx · Apache · Tomcat · Ansible
 
 ## Кому полезен
 
@@ -103,21 +114,21 @@ Kubernetes · git · ELK · TeamCity · GitLab · Helm · AWS · Ansible · Linu
       </blockquote>
     </article>
     <article class="review-slide">
-      <h3>Консультация по рынку Германии / Автор: <a class="review-link" href="t.me/ArisenRising" target="_blank" rel="noopener noreferrer">@ArisenRising</a></h3>
+      <h3>Консультация по рынку Германии <a class="review-link" href="https://t.me/ArisenRising" target="_blank" rel="noopener noreferrer">@ArisenRising</a></h3>
       <blockquote>
         <p>Специальность: DevOps / SRE #devops</p>
         <p>Обращался по консультации учитывая специфику немецкого рынка. Помог разобраться в деталях, ответственно подходил к решению имеющихся вопросов. Так же оперативно отвечал на попутно возникавшие вопросы. Так что если есть какие то трудности с трудоустройством в Германии или просто есть желание оптимизировать данный процесс - рекомендую.</p>
       </blockquote>
     </article>
     <article class="review-slide">
-      <h3>Консультация по резюме / Автор: <a class="review-link" href="t.me/DannyKornev" target="_blank" rel="noopener noreferrer">@DannyKornev</a></h3>
+      <h3>Консультация по резюме <a class="review-link" href="https://t.me/DannyKornev" target="_blank" rel="noopener noreferrer">@DannyKornev</a></h3>
       <blockquote>
         <p>Специальность: DevOps / SRE #devops</p>
         <p>Даниэль очень сильно мне помог разобраться с некоторыми особенностями поиска работы в Германии, дал подробный анализ моего резюме и помог наметить стратегию для достижения цели. Также помог в разборе ошибок, которые я совершил на интервью. Приятный в общении и очень организованный. Вообщем сотрудничество прошло очень хорошо и результативно. Советую</p>
       </blockquote>
     </article>
     <article class="review-slide">
-      <h3>Интенсив по Linux / Автор: <a class="review-link" href="t.me/Ipavelgumilev" target="_blank" rel="noopener noreferrer">@Ipavelgumilev</a></h3>
+      <h3>Интенсив по Linux <a class="review-link" href="https://t.me/Ipavelgumilev" target="_blank" rel="noopener noreferrer">@Ipavelgumilev</a></h3>
       <blockquote>
         <p>Специальность: DevOps / SRE #devops</p>
         <p>Для работы понадобились знания Linux, и я решил обратиться к Данилу для изучения данного вопроса. Мы провели первый созвон и договорились о менторстве. Обучение длилось в течение 2 месяцев: каждую неделю Данил давал домашнюю работу и мы проводили созвон по изученным темам. Мне понравилась хорошая подача материала, а также разбор всех моих вопросов. Он подсвечивал пробелы в знаниях, и по ним велась более подробная работа. Вместе с главной темой запроса также затронули общие понятия компьютерных сетей. Огромные плюсы Данила как ментора: глубокое понимание Linux, отличная подача материала (простым и доступным языком, что было для меня очень важно), а также выстроенный план обучения для дальнейшего самостоятельного изучения. Благодарю взаимодействию с ним, я сократил время обучения (в интернете слишком много информации, и как новичку тяжело понимать, что нужно для базовых знаний) и также повысил зарплату на работе. Рекомендую Данила и всем советую!</p>
@@ -127,6 +138,68 @@ Kubernetes · git · ELK · TeamCity · GitLab · Helm · AWS · Ansible · Linu
 </div>
 
 <style>
+.mentoring-profile {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 1rem;
+  box-shadow: 0 18px 36px -24px rgba(15, 23, 42, 0.45);
+}
+
+.mentoring-profile__photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid color-mix(in srgb, var(--global-base-color) 65%, white);
+}
+
+.mentoring-profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.mentoring-profile__name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.mentoring-profile__role {
+  margin: 0;
+  color: color-mix(in srgb, var(--global-text-color) 70%, white);
+}
+
+.mentoring-profile__contacts {
+  margin: 0;
+  font-weight: 500;
+}
+
+.mentoring-profile__contacts a {
+  text-decoration: none;
+  color: color-mix(in srgb, var(--global-base-color) 85%, white);
+}
+
+.mentoring-profile__contacts a:hover {
+  text-decoration: underline;
+}
+
+.review-link {
+  font-size: 0.85rem;
+  font-weight: normal;
+  margin-left: 0.5rem;
+  text-decoration: none;
+  color: color-mix(in srgb, var(--global-base-color) 80%, white);
+}
+
+.review-link:hover {
+  text-decoration: underline;
+}
+
 .mentoring-reviews {
   margin: 2.5rem 0;
   padding: 1.5rem;
@@ -161,18 +234,6 @@ Kubernetes · git · ELK · TeamCity · GitLab · Helm · AWS · Ansible · Linu
   margin-top: 0;
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
-}
-
-.review-link {
-  font-size: 0.85rem;
-  font-weight: normal;
-  margin-left: 0.5rem;
-  text-decoration: none;
-  color: color-mix(in srgb, var(--global-base-color) 80%, white);
-}
-
-.review-link:hover {
-  text-decoration: underline;
 }
 
 .review-slide blockquote {
@@ -212,6 +273,17 @@ Kubernetes · git · ELK · TeamCity · GitLab · Helm · AWS · Ansible · Linu
 }
 
 @media (max-width: 600px) {
+  .mentoring-profile {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .mentoring-profile__photo {
+    width: 110px;
+    height: 110px;
+  }
+
   .mentoring-reviews {
     padding: 1rem;
   }

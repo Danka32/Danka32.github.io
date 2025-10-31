@@ -6,6 +6,19 @@ author_profile: false
 
 **Sprache:** [Русский]({{ '/mentoring/' | relative_url }}) | [English]({{ '/en/mentoring/' | relative_url }}) | Deutsch
 
+<div class="mentoring-profile">
+  <img src="{{ '/images/profile.png' | relative_url }}" alt="Daniel — DevOps Mentor" class="mentoring-profile__photo" loading="lazy" width="160" height="160" />
+  <div class="mentoring-profile__info">
+    <p class="mentoring-profile__name"><strong>Daniel</strong></p>
+    <p class="mentoring-profile__role">DevOps Engineer · Mentor</p>
+    <p class="mentoring-profile__contacts">
+      <a href="https://t.me/DanOtan" target="_blank" rel="noopener noreferrer">Telegram</a>
+      · <a href="mailto:danilalovelinux@proton.me">E-Mail</a>
+      · <a href="https://github.com/Danka32" target="_blank" rel="noopener noreferrer">GitHub</a>
+    </p>
+  </div>
+</div>
+
 ## Ich heiße Daniel
 
 - Ein Jahr direkt unter einem CTO gearbeitet – hier der [Story-Beitrag](https://t.me/devopsdir/20).
@@ -13,11 +26,9 @@ author_profile: false
 - Zwei Freunde erfolgreich in DevOps begleitet und [einen Community-Engineer gementort](https://t.me/it_mentors/3279).
 - Zertifiziert als [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/1c615f76-070a-48f4-b8a4-2224bc3b1814/public_url).
 - Teile regelmäßig praktische Einblicke im Telegram-Kanal [DevOpsDir](https://t.me/devopsdir).
-**Kontakt:** [@DanOtan](https://t.me/DanOtan) · [danilalovelinux@proton.me](mailto:danilalovelinux@proton.me) · [github.com/Danka32](https://github.com/Danka32)
-
 ## Technologie-Stack
 
-Kubernetes · git · ELK · TeamCity · GitLab · Helm · AWS · Ansible · Linux · Bash · Azure · nginx · Prometheus · Computer Networks · Apache · Cyber Security
+Kubernetes · Azure · AWS · Terraform · Terragrunt · Kapitan · GitLab CI/CD · TeamCity · Docker · Docker Compose · Docker Swarm · Teleport · Helm · Kustomize · ELK · Prometheus · Thanos · Grafana · Bash · Go · Python · nginx · Apache · Tomcat · Ansible
 
 ## Für wen ist es hilfreich
 
@@ -62,3 +73,68 @@ Ich führe Mock-Interviews bis zum Level Middle DevOps Engineer durch. Stress-Se
 Wenn du einen konkreten Punkt klären möchtest, schreib mir einfach auf Telegram. Ich helfe dir gerne bei der nächsten Entscheidung.
 
 [Auf Telegram schreiben](https://t.me/DanOtan){: .btn }
+
+<style>
+.mentoring-profile {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 1rem;
+  box-shadow: 0 18px 36px -24px rgba(15, 23, 42, 0.45);
+}
+
+.mentoring-profile__photo {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid color-mix(in srgb, var(--global-base-color) 65%, white);
+}
+
+.mentoring-profile__info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.mentoring-profile__name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.mentoring-profile__role {
+  margin: 0;
+  color: color-mix(in srgb, var(--global-text-color) 70%, white);
+}
+
+.mentoring-profile__contacts {
+  margin: 0;
+  font-weight: 500;
+}
+
+.mentoring-profile__contacts a {
+  text-decoration: none;
+  color: color-mix(in srgb, var(--global-base-color) 85%, white);
+}
+
+.mentoring-profile__contacts a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .mentoring-profile {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .mentoring-profile__photo {
+    width: 110px;
+    height: 110px;
+  }
+}
+</style>
