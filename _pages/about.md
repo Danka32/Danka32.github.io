@@ -23,11 +23,11 @@ I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure re
 ### Knuddels GmbH — Linux Sysadmin
 
 - Operated a hybrid estate with a 12-node Kubernetes cluster and 70+ Linux servers across cloud and on-premises environments.
-- Halved downtime by redesigning the flagship product’s release process, pairing it with automation built in Ansible.
+- **Halved downtime** by redesigning the **flagship product’s** release process, pairing it with automation built in Ansible.
 - Raised overall availability through proactive maintenance, upgrades, and observability tuning (Thanos, Prometheus, ELK) that reduced storage needs by **~40%**.
 - Automated port-security checks with Ansible Jinja2, Prometheus Blackbox, and Bash to eliminate manual testing.
-- Implemented Wazuh and Trivy to cut critical vulnerabilities by **30%** within two weeks while rolling out cost-efficient metrics/log storage.
-- Delivered repeatable release tooling that dropped environment rollout times from two hours to ten minutes and partnered closely with development to keep releases predictable.
+- Implemented **Wazuh** and **Trivy** to cut critical vulnerabilities by **30%** within two weeks while rolling out cost-efficient metrics/log storage.
+- Delivered repeatable release tooling that **dropped environment rollout times from two hours to ten minutes** and partnered closely with development to keep releases predictable.
 
 ## Certification
 
