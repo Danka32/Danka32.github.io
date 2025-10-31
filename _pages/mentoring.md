@@ -13,19 +13,19 @@ author_profile: false
     <p class="mentoring-profile__role">DevOps Engineer · Mentor</p>
     <ul class="mentoring-profile__contacts">
       <li>
-        <a href="https://t.me/DanOtan" target="_blank" rel="noopener noreferrer">
+        <a class="mentoring-profile__contact mentoring-profile__contact--telegram" href="https://t.me/DanOtan" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-fw fa-telegram-plane mentoring-profile__icon" aria-hidden="true"></i>
           Telegram
         </a>
       </li>
       <li>
-        <a href="mailto:danilalovelinux@proton.me">
+        <a class="mentoring-profile__contact mentoring-profile__contact--email" href="mailto:danilalovelinux@proton.me">
           <i class="fas fa-fw fa-envelope mentoring-profile__icon" aria-hidden="true"></i>
           Email
         </a>
       </li>
       <li>
-        <a href="https://github.com/Danka32" target="_blank" rel="noopener noreferrer">
+        <a class="mentoring-profile__contact mentoring-profile__contact--github" href="https://github.com/Danka32" target="_blank" rel="noopener noreferrer">
           <i class="fab fa-fw fa-github mentoring-profile__icon" aria-hidden="true"></i>
           GitHub
         </a>
@@ -41,6 +41,7 @@ author_profile: false
 - Успешно заменторил троих людей в DevOps
 - Есть сертификат [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/1c615f76-070a-48f4-b8a4-2224bc3b1814/public_url)
 - Регулярно делюсь практикой в [Телеграм-канале DevOpsDir](https://t.me/devopsdir)
+
 ## Мой стек
 
 Kubernetes · Azure · AWS · Terraform · Terragrunt · Kapitan · GitLab CI/CD · TeamCity · Docker · Docker Compose · Docker Swarm · Teleport · Helm · Kustomize · ELK · Prometheus · Thanos · Grafana · Bash · Go · Python · nginx · Apache · Tomcat · Ansible
@@ -191,7 +192,7 @@ Kubernetes · Azure · AWS · Terraform · Terragrunt · Kapitan · GitLab CI/CD
 .mentoring-profile__contacts {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
+  gap: 1rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -203,17 +204,44 @@ Kubernetes · Azure · AWS · Terraform · Terragrunt · Kapitan · GitLab CI/CD
   align-items: center;
 }
 
-.mentoring-profile__contacts a {
+.mentoring-profile__contact {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  text-decoration: none;
+  padding: 0.4rem 0.85rem;
   font-weight: 600;
-  color: color-mix(in srgb, var(--global-base-color) 85%, white);
+  letter-spacing: 0.01em;
+  text-decoration: none;
+  color: var(--contact-color, color-mix(in srgb, var(--global-base-color) 80%, var(--global-text-color)));
+  background: color-mix(in srgb, var(--contact-color, var(--global-base-color)) 7%, transparent);
+  border: 1px solid color-mix(in srgb, var(--contact-color, var(--global-base-color)) 25%, var(--global-border-color));
+  border-radius: 999px;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease;
 }
 
-.mentoring-profile__contacts a:hover {
-  text-decoration: underline;
+.mentoring-profile__contact:hover,
+.mentoring-profile__contact:focus-visible {
+  color: var(--contact-color, var(--global-base-color));
+  background: color-mix(in srgb, var(--contact-color, var(--global-base-color)) 14%, white);
+  border-color: color-mix(in srgb, var(--contact-color, var(--global-base-color)) 45%, var(--global-border-color));
+  text-decoration: none;
+}
+
+.mentoring-profile__contact:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--contact-color, var(--global-base-color)) 35%, white);
+  outline-offset: 2px;
+}
+
+.mentoring-profile__contact--telegram {
+  --contact-color: #1e88cf;
+}
+
+.mentoring-profile__contact--email {
+  --contact-color: #db2777;
+}
+
+.mentoring-profile__contact--github {
+  --contact-color: #24292f;
 }
 
 .mentoring-profile__icon {
