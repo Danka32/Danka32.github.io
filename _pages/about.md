@@ -55,4 +55,4 @@ German (fluent) · English (fluent)
 
 ## Mentoring
 
-I also run a Russian-language mentoring program—[RU-Mentoring](https://devopsadm.in/mentor)—for engineers who want practical, hands-on guidance in DevOps.
+I also run a Russian-language mentoring program—[RU-Mentoring](https://devopsadm.in/mentoring)—for engineers who want practical, hands-on guidance in DevOps.
