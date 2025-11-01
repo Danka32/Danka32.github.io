@@ -13,9 +13,9 @@ I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure re
 
 ### Inovex GmbH — Cloud Engineer
 
-- Designed and implemented Azure landing zones, tailoring them with best practices and client-specific requirements while directly presenting future roadmaps.
+- Designed and implemented Azure landing zones, tailoring them with best practices and client-specific requirements while keeping tight contact with the client.
 - Introduced reusable Terraform, Terragrunt, and Kapitan modules that modernized an enterprise legacy estate and dramatically increased standardization.
-- Migrated ageing Kustomize deployments to maintainable Helm charts, cutting onboarding time for new engineers by roughly **20%**.
+- Migrated ageing Kustomize deployments to maintainable Helm charts, cutting deployment time for microservices by roughly **20%**.
 - Integrated microservices into a centralized deployment architecture to improve reusability and maintainability.
 - Refactored GitLab CI/CD pipelines, trimming build and release times by around **30% across half of the client product portfolio**.
 - Delivered parameterized, dynamic pipelines that made delivery logic clearer and more resilient.
