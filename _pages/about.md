@@ -11,7 +11,9 @@ I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure re
 
 ## Experience
 
-### Inovex GmbH — Cloud Engineer
+### ventx GmbH — Cloud Engineer | 03.2026
+
+### Inovex GmbH — DevOps Engineer | 11.2023 - 02.2026
 
 - Designed and implemented Azure landing zones, tailoring them with best practices and client-specific requirements while keeping tight contact with the client.
 - Introduced reusable Terraform, Terragrunt, and Kapitan modules that modernized an enterprise legacy estate and dramatically increased standardization.
@@ -20,7 +22,7 @@ I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure re
 - Refactored GitLab CI/CD pipelines, trimming build and release times by around **30% across half of the client product portfolio**.
 - Delivered parameterized, dynamic pipelines that made delivery logic clearer and more resilient.
 
-### Knuddels GmbH — Linux Sysadmin
+### Knuddels GmbH — Linux Sysadmin | 07.2022 - 10.2023
 
 - Operated a hybrid estate with a 12-node Kubernetes cluster and 70+ Linux servers across cloud and on-premises environments.
 - **Halved downtime** by redesigning the **flagship product’s** release process, pairing it with automation built in Ansible.
@@ -32,6 +34,7 @@ I’m **Daniel**, a DevOps engineer who enjoys keeping complex infrastructure re
 ## Certification
 
 - [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/1c615f76-070a-48f4-b8a4-2224bc3b1814/public_url)
+- [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/3e741fff-60ff-4253-86f9-60042f98d278/linked_in)
 
 ## Tools & Technologies
 
