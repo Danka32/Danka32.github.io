@@ -40,6 +40,7 @@ author_profile: false
 - Middle DevOps Engineer в 22 года
 - Успешно заменторил троих людей в DevOps
 - Есть сертификат [CKA: Certified Kubernetes Administrator](https://www.credly.com/badges/1c615f76-070a-48f4-b8a4-2224bc3b1814/public_url)
+- Есть сертификат [AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/3e741fff-60ff-4253-86f9-60042f98d278/linked_in)
 - Регулярно делюсь практикой в [Телеграм-канале DevOpsDir](https://t.me/devopsdir)
 
 ## Мой стек
